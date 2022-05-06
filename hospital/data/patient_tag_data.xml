@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="patient_tag_vip" model="patient.tag">
+            <field name="name">VIP</field>
+        </record>
+        <record id="patient_tag_kid" model="patient.tag">
+            <field name="name">KID</field>
+            <field name="color">3</field>
+        </record>
+        <record id="patient_tag_ceo" model="patient.tag">
+            <field name="name">CEO</field>
+            <field name="active" eval="False"/> 
+        </record>
+        <record id="patient_tag_black_list" model="patient.tag">
+            <field name="name">Black List</field>
+        </record>
+    </data>
+</odoo>

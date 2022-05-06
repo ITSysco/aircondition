@@ -1,0 +1,4 @@
+id,name,active,color
+patient_tag_adult,Adult,True,11
+patient_tag_mis,MIS,False,2
+patient_tag_mr,MR,False,5
